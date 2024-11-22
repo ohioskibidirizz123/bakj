@@ -10,7 +10,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #ffffff;
     line-height: 1.6;
-    background-color: #000000;
+    background-color: #000000; /* Default background color */
     overflow-x: hidden;
 }
 
@@ -26,7 +26,7 @@ a {
 header {
     position: relative;
     height: 100vh;
-    background-image: url('assets/space-background.jpg');
+    background-image: url('your-background-image.jpg'); /* Add your background image here */
     background-size: cover;
     background-position: center;
 }
@@ -37,7 +37,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
 }
 
 .header-content {
@@ -59,17 +59,19 @@ header p {
     margin-bottom: 1.5em;
 }
 
+/* Updated CTA Button to be White */
 .cta-button {
     padding: 15px 30px;
-    background-color: #00b3ff;
-    color: white;
+    background-color: #ffffff; /* Button background is now white */
+    color: #000000; /* Text color is black for better contrast */
     font-size: 1.2em;
     border-radius: 50px;
     transition: background-color 0.3s ease;
+    border: 2px solid #ffffff; /* Optional: Adds a border around the button */
 }
 
 .cta-button:hover {
-    background-color: #0099cc;
+    background-color: #f0f0f0; /* Light gray background when hovering */
 }
 
 /* Explore Section */
