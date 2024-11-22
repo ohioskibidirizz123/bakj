@@ -1,0 +1,14 @@
+{
+  "name": "freelildurk-site",
+  "version": "1.0.0",
+  "description": "A simple static website for freelildurk.io",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'No build process defined'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
